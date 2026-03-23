@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-gitignore-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @tailwindcss/cli -i input.css -o ../css/output.css",
+    "build": "npx @tailwindcss/cli -i input.css -o ../css/output.css --minify"
+  },
+  "keywords": [],
+  "author": "grimlink",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
+}

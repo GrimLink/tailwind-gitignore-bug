@@ -1,0 +1,4 @@
+@import "tailwindcss" source(none);
+@source "../../**/*.phtml";
+@source "../../**/*.xml";
+@source "../../../../../../vendor/acme/theme";
