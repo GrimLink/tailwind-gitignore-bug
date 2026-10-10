@@ -1,5 +1,8 @@
 # Tailwind v4 `@source` and `.gitignore` Allow-List Conflict
 
+> [!IMPORTANT]
+> This issue has been fixed in Tailwind v4.3.1 see https://github.com/tailwindlabs/tailwindcss/issues/19844 for refrence
+
 This repository is a minimal reproduction of a bug in Tailwind CSS v4 where the `@source` directive respects `.gitignore` patterns. When a project uses an allow-list `.gitignore` (starting with `*`) with explicit `!` exceptions, Tailwind cannot scan files in git-ignored directories, even when they are explicitly referenced via `@source`.
 
 ## The bug
